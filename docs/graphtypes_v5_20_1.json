@@ -1,8 +1,8 @@
 {
   "Aggregate": [
     "NonArgAggregateOp",
-    "ArgminDef",
-    "ArgmaxDef"
+    "ArgmaxDef",
+    "ArgminDef"
   ],
   "AggregateOp": [],
   "AggregateTransform": [
@@ -10,50 +10,50 @@
     "FieldName"
   ],
   "AggregatedFieldDef": [
-    "AggregateOp",
-    "FieldName"
+    "FieldName",
+    "AggregateOp"
   ],
   "Align": [],
   "AllSortString": [
-    "SortByChannel",
+    "SortOrder",
     "SortByChannelDesc",
-    "SortOrder"
+    "SortByChannel"
   ],
   "AnyMark": [
-    "CompositeMarkDef",
-    "CompositeMark",
+    "Mark",
     "MarkDef",
-    "Mark"
+    "CompositeMarkDef",
+    "CompositeMark"
   ],
   "AnyMarkConfig": [
-    "RectConfig",
+    "TickConfig",
+    "MarkConfig",
     "BarConfig",
     "AreaConfig",
-    "LineConfig",
-    "MarkConfig",
-    "TickConfig"
+    "RectConfig",
+    "LineConfig"
   ],
   "AreaConfig": [
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "OverlayMarkDef",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "OverlayMarkDef",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
-    "Gradient"
+    "Align",
+    "SymbolShape",
+    "Gradient",
+    "StrokeCap",
+    "Interpolate"
   ],
   "ArgmaxDef": [
     "FieldName"
@@ -67,52 +67,52 @@
   "AutosizeType": [],
   "Axis": [
     "TimeIntervalStep",
-    "TitleAnchor",
-    "Color",
+    "FontWeight",
+    "Dict",
+    "ConditionalAxisColor",
     "ExprRef",
+    "ConditionalAxisLabelAlign",
+    "AxisOrient",
+    "FontStyle",
+    "Color",
+    "ConditionalAxisNumber",
     "TextBaseline",
     "Text",
-    "ConditionalAxisString",
-    "ConditionalAxisLabelBaseline",
-    "Align",
-    "AxisOrient",
-    "StrokeCap",
-    "ConditionalAxisColor",
-    "ConditionalAxisLabelFontWeight",
-    "FontWeight",
-    "ConditionalAxisNumber",
-    "Dict",
-    "FontStyle",
-    "ConditionalAxisLabelAlign",
-    "LabelOverlap",
-    "TimeInterval",
-    "ConditionalAxisLabelFontStyle",
     "DateTime",
+    "ConditionalAxisLabelFontStyle",
+    "ConditionalAxisString",
+    "Align",
+    "LabelOverlap",
+    "ConditionalAxisLabelBaseline",
+    "StrokeCap",
+    "TimeInterval",
+    "TitleAnchor",
+    "ConditionalAxisLabelFontWeight",
     "ConditionalAxisNumberArray"
   ],
   "AxisConfig": [
     "TimeIntervalStep",
-    "TitleAnchor",
-    "Color",
+    "FontWeight",
+    "Dict",
+    "ConditionalAxisColor",
     "ExprRef",
+    "ConditionalAxisLabelAlign",
+    "AxisOrient",
+    "FontStyle",
+    "Color",
+    "ConditionalAxisNumber",
     "TextBaseline",
     "Text",
-    "ConditionalAxisString",
-    "ConditionalAxisLabelBaseline",
-    "Align",
-    "AxisOrient",
-    "StrokeCap",
-    "ConditionalAxisColor",
-    "ConditionalAxisLabelFontWeight",
-    "FontWeight",
-    "ConditionalAxisNumber",
-    "Dict",
-    "FontStyle",
-    "ConditionalAxisLabelAlign",
-    "LabelOverlap",
-    "TimeInterval",
-    "ConditionalAxisLabelFontStyle",
     "DateTime",
+    "ConditionalAxisLabelFontStyle",
+    "ConditionalAxisString",
+    "Align",
+    "LabelOverlap",
+    "ConditionalAxisLabelBaseline",
+    "StrokeCap",
+    "TimeInterval",
+    "TitleAnchor",
+    "ConditionalAxisLabelFontWeight",
     "ConditionalAxisNumberArray"
   ],
   "AxisOrient": [],
@@ -121,37 +121,37 @@
   ],
   "BBox": [],
   "BarConfig": [
+    "RelativeBandSize",
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
+    "Align",
+    "SymbolShape",
     "Gradient",
-    "RelativeBandSize"
+    "StrokeCap",
+    "Interpolate"
   ],
   "BaseTitleNoValueRefs": [
-    "Align",
+    "TitleOrient",
     "FontWeight",
-    "TitleAnchor",
+    "ExprRef",
+    "TitleFrame",
+    "Align",
     "FontStyle",
     "Color",
-    "ExprRef",
-    "TextBaseline",
-    "TitleOrient",
-    "TitleFrame"
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "Baseline": [],
   "BinExtent": [
@@ -161,8 +161,8 @@
     "BinExtent"
   ],
   "BinTransform": [
-    "FieldName",
-    "BinParams"
+    "BinParams",
+    "FieldName"
   ],
   "BindCheckbox": [
     "Element"
@@ -182,8 +182,8 @@
   "Binding": [
     "BindRange",
     "BindRadioSelect",
-    "BindDirect",
     "BindCheckbox",
+    "BindDirect",
     "BindInput"
   ],
   "BinnedTimeUnit": [],
@@ -193,25 +193,25 @@
     "AnyMarkConfig"
   ],
   "BoxPlotDef": [
-    "AnyMarkConfig",
-    "Gradient",
+    "BoxPlot",
     "MarkInvalidDataMode",
-    "Orientation",
+    "Gradient",
     "Color",
+    "AnyMarkConfig",
     "ExprRef",
-    "BoxPlot"
+    "Orientation"
   ],
   "BrushConfig": [
-    "Cursor",
-    "Color"
+    "Color",
+    "Cursor"
   ],
   "CalculateTransform": [
     "FieldName"
   ],
   "Categorical": [],
   "Color": [
-    "ColorName",
-    "HexColor"
+    "HexColor",
+    "ColorName"
   ],
   "ColorDef": [
     "FieldOrDatumDefWithCondition<DatumDef,(Gradient|string|null)>",
@@ -221,54 +221,54 @@
   "ColorName": [],
   "ColorScheme": [
     "Diverging",
-    "SequentialMultiHue",
     "SequentialSingleHue",
-    "Categorical",
-    "Cyclical"
+    "Cyclical",
+    "SequentialMultiHue",
+    "Categorical"
   ],
   "Encoding": [
     "OrderFieldDef",
-    "StringFieldDef",
-    "OffsetDef",
-    "Position2Def",
-    "NumericMarkPropDef",
-    "OrderValueDef",
-    "ColorDef",
-    "ValueDef<number>",
-    "NumericArrayMarkPropDef",
+    "PolarDef",
+    "StringFieldDefWithCondition",
     "ShapeDef",
-    "LatLongDef",
     "OrderOnlyDef",
     "TextDef",
-    "PositionDef",
-    "StringFieldDefWithCondition",
-    "StringValueDefWithCondition",
-    "SecondaryFieldDef",
+    "StringFieldDef",
+    "NumericMarkPropDef",
+    "LatLongDef",
     "FieldDefWithoutScale",
-    "PolarDef"
+    "OrderValueDef",
+    "ColorDef",
+    "PositionDef",
+    "SecondaryFieldDef",
+    "StringValueDefWithCondition",
+    "Position2Def",
+    "ValueDef<number>",
+    "NumericArrayMarkPropDef",
+    "OffsetDef"
   ],
   "CompositeMark": [
-    "ErrorBar",
+    "BoxPlot",
     "ErrorBand",
-    "BoxPlot"
+    "ErrorBar"
   ],
   "CompositeMarkDef": [
-    "ErrorBarDef",
     "ErrorBandDef",
+    "ErrorBarDef",
     "BoxPlotDef"
   ],
   "CompositionConfig": [],
   "ConditionalMarkPropFieldOrDatumDef": [
-    "ConditionalParameter<MarkPropFieldOrDatumDef>",
-    "ConditionalPredicate<MarkPropFieldOrDatumDef>"
+    "ConditionalPredicate<MarkPropFieldOrDatumDef>",
+    "ConditionalParameter<MarkPropFieldOrDatumDef>"
   ],
   "ConditionalMarkPropFieldOrDatumDef<TypeForShape>": [
-    "ConditionalParameter<MarkPropFieldOrDatumDef<TypeForShape>>",
-    "ConditionalPredicate<MarkPropFieldOrDatumDef<TypeForShape>>"
+    "ConditionalPredicate<MarkPropFieldOrDatumDef<TypeForShape>>",
+    "ConditionalParameter<MarkPropFieldOrDatumDef<TypeForShape>>"
   ],
   "ConditionalStringFieldDef": [
-    "ConditionalPredicate<StringFieldDef>",
-    "ConditionalParameter<StringFieldDef>"
+    "ConditionalParameter<StringFieldDef>",
+    "ConditionalPredicate<StringFieldDef>"
   ],
   "ConditionalValueDef<(Gradient|string|null|ExprRef)>": [
     "ConditionalParameter<ValueDef<(Gradient|string|null|ExprRef)>>",
@@ -279,28 +279,28 @@
     "ConditionalParameter<ValueDef<(Text|ExprRef)>>"
   ],
   "ConditionalValueDef<(number[]|ExprRef)>": [
-    "ConditionalParameter<ValueDef<(number[]|ExprRef)>>",
-    "ConditionalPredicate<ValueDef<(number[]|ExprRef)>>"
+    "ConditionalPredicate<ValueDef<(number[]|ExprRef)>>",
+    "ConditionalParameter<ValueDef<(number[]|ExprRef)>>"
   ],
   "ConditionalValueDef<(number|ExprRef)>": [
     "ConditionalPredicate<ValueDef<(number|ExprRef)>>",
     "ConditionalParameter<ValueDef<(number|ExprRef)>>"
   ],
   "ConditionalValueDef<(string|ExprRef)>": [
-    "ConditionalParameter<ValueDef<(string|ExprRef)>>",
-    "ConditionalPredicate<ValueDef<(string|ExprRef)>>"
+    "ConditionalPredicate<ValueDef<(string|ExprRef)>>",
+    "ConditionalParameter<ValueDef<(string|ExprRef)>>"
   ],
   "ConditionalValueDef<(string|null|ExprRef)>": [
-    "ConditionalPredicate<ValueDef<(string|null|ExprRef)>>",
-    "ConditionalParameter<ValueDef<(string|null|ExprRef)>>"
+    "ConditionalParameter<ValueDef<(string|null|ExprRef)>>",
+    "ConditionalPredicate<ValueDef<(string|null|ExprRef)>>"
   ],
   "ConditionalValueDef<number>": [
-    "ConditionalParameter<ValueDef<number>>",
-    "ConditionalPredicate<ValueDef<number>>"
+    "ConditionalPredicate<ValueDef<number>>",
+    "ConditionalParameter<ValueDef<number>>"
   ],
   "ConditionalAxisColor": [
-    "Color",
-    "ConditionalPredicate<(ValueDef<(Color|null)>|ExprRef)>"
+    "ConditionalPredicate<(ValueDef<(Color|null)>|ExprRef)>",
+    "Color"
   ],
   "ConditionalAxisLabelAlign": [
     "ConditionalPredicate<(ValueDef<(Align|null)>|ExprRef)>",
@@ -311,8 +311,8 @@
     "TextBaseline"
   ],
   "ConditionalAxisLabelFontStyle": [
-    "ConditionalPredicate<(ValueDef<(FontStyle|null)>|ExprRef)>",
-    "FontStyle"
+    "FontStyle",
+    "ConditionalPredicate<(ValueDef<(FontStyle|null)>|ExprRef)>"
   ],
   "ConditionalAxisLabelFontWeight": [
     "FontWeight",
@@ -329,12 +329,12 @@
     "Align"
   ],
   "ConditionalAxisProperty<(Color|null)>": [
-    "Color",
-    "ConditionalPredicate<(ValueDef<(Color|null)>|ExprRef)>"
+    "ConditionalPredicate<(ValueDef<(Color|null)>|ExprRef)>",
+    "Color"
   ],
   "ConditionalAxisProperty<(FontStyle|null)>": [
-    "ConditionalPredicate<(ValueDef<(FontStyle|null)>|ExprRef)>",
-    "FontStyle"
+    "FontStyle",
+    "ConditionalPredicate<(ValueDef<(FontStyle|null)>|ExprRef)>"
   ],
   "ConditionalAxisProperty<(FontWeight|null)>": [
     "FontWeight",
@@ -357,63 +357,63 @@
     "ConditionalPredicate<(ValueDef<(string|null)>|ExprRef)>"
   ],
   "ConditionalParameter<MarkPropFieldOrDatumDef>": [
-    "RepeatRef",
-    "Text",
-    "ExprRef",
-    "Type",
-    "TimeUnitParams",
     "TimeUnit",
-    "Legend",
-    "Field",
-    "StandardType",
     "PrimitiveValue",
-    "Sort",
-    "ParameterName",
-    "Scale",
+    "RepeatRef",
+    "Aggregate",
     "BinParams",
+    "Scale",
+    "ExprRef",
+    "ParameterName",
     "BinnedTimeUnit",
+    "Field",
+    "TimeUnitParams",
+    "Text",
+    "StandardType",
     "DateTime",
-    "Aggregate"
+    "Type",
+    "Sort",
+    "Legend"
   ],
   "ConditionalParameter<MarkPropFieldOrDatumDef<TypeForShape>>": [
-    "RepeatRef",
-    "Text",
-    "ExprRef",
-    "Type",
-    "TimeUnitParams",
-    "TimeUnit",
     "TypeForShape",
-    "Legend",
-    "Field",
+    "TimeUnit",
     "PrimitiveValue",
-    "Sort",
-    "ParameterName",
-    "Scale",
+    "RepeatRef",
+    "Aggregate",
     "BinParams",
+    "Scale",
+    "ExprRef",
+    "ParameterName",
     "BinnedTimeUnit",
+    "Field",
+    "TimeUnitParams",
+    "Text",
     "DateTime",
-    "Aggregate"
+    "Type",
+    "Sort",
+    "Legend"
   ],
   "ConditionalParameter<StringFieldDef>": [
     "Field",
-    "StandardType",
-    "ParameterName",
-    "Dict",
-    "Text",
-    "BinParams",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "Dict",
+    "ParameterName",
+    "BinnedTimeUnit"
   ],
   "ConditionalParameter<ValueDef<(Gradient|string|null|ExprRef)>>": [
-    "Gradient",
     "ParameterName",
-    "ExprRef"
+    "ExprRef",
+    "Gradient"
   ],
   "ConditionalParameter<ValueDef<(Text|ExprRef)>>": [
-    "Text",
     "ParameterName",
+    "Text",
     "ExprRef"
   ],
   "ConditionalParameter<ValueDef<(number[]|ExprRef)>>": [
@@ -465,54 +465,54 @@
     "PredicateComposition"
   ],
   "ConditionalPredicate<MarkPropFieldOrDatumDef>": [
-    "RepeatRef",
-    "PredicateComposition",
-    "Text",
-    "ExprRef",
-    "Type",
-    "TimeUnitParams",
     "TimeUnit",
-    "Legend",
-    "Field",
-    "StandardType",
     "PrimitiveValue",
-    "Sort",
+    "RepeatRef",
+    "Aggregate",
     "Scale",
     "BinParams",
+    "ExprRef",
     "BinnedTimeUnit",
+    "Field",
+    "TimeUnitParams",
+    "Text",
+    "StandardType",
+    "PredicateComposition",
     "DateTime",
-    "Aggregate"
+    "Type",
+    "Sort",
+    "Legend"
   ],
   "ConditionalPredicate<MarkPropFieldOrDatumDef<TypeForShape>>": [
-    "RepeatRef",
-    "PredicateComposition",
-    "Text",
-    "ExprRef",
-    "Type",
-    "TimeUnitParams",
-    "TimeUnit",
     "TypeForShape",
-    "Legend",
-    "Field",
+    "TimeUnit",
     "PrimitiveValue",
-    "Sort",
+    "RepeatRef",
+    "Aggregate",
     "Scale",
     "BinParams",
+    "ExprRef",
     "BinnedTimeUnit",
+    "Field",
+    "TimeUnitParams",
+    "Text",
+    "PredicateComposition",
     "DateTime",
-    "Aggregate"
+    "Type",
+    "Sort",
+    "Legend"
   ],
   "ConditionalPredicate<StringFieldDef>": [
     "Field",
-    "StandardType",
-    "PredicateComposition",
-    "Dict",
-    "Text",
-    "BinParams",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "PredicateComposition",
+    "BinParams",
+    "Aggregate",
+    "Dict",
+    "BinnedTimeUnit"
   ],
   "ConditionalPredicate<ValueDef<(Gradient|string|null|ExprRef)>>": [
     "Gradient",
@@ -544,34 +544,34 @@
     "PredicateComposition"
   ],
   "Config": [
-    "AutoSizeParams",
-    "ErrorBarConfig",
-    "HeaderConfig",
-    "ProjectionConfig",
-    "Color",
-    "CompositionConfig",
-    "ExprRef",
-    "RangeConfig",
-    "StyleConfigIndex",
-    "BoxPlotConfig",
-    "AxisConfig",
-    "MarkConfig",
-    "Padding",
-    "ViewConfig",
-    "TitleConfig",
-    "RectConfig",
-    "AutosizeType",
-    "ErrorBandConfig",
-    "ScaleConfig",
-    "BarConfig",
-    "Locale",
-    "TopLevelParameter",
-    "AreaConfig",
     "FormatConfig",
-    "LineConfig",
+    "MarkConfig",
+    "ExprRef",
+    "ScaleConfig",
+    "TopLevelParameter",
     "SelectionConfig",
     "LegendConfig",
-    "TickConfig"
+    "RangeConfig",
+    "ErrorBandConfig",
+    "Color",
+    "StyleConfigIndex",
+    "ProjectionConfig",
+    "BarConfig",
+    "CompositionConfig",
+    "TickConfig",
+    "AutosizeType",
+    "ViewConfig",
+    "AutoSizeParams",
+    "Locale",
+    "Padding",
+    "ErrorBarConfig",
+    "TitleConfig",
+    "HeaderConfig",
+    "AreaConfig",
+    "RectConfig",
+    "LineConfig",
+    "AxisConfig",
+    "BoxPlotConfig"
   ],
   "CsvDataFormat": [
     "Parse"
@@ -579,14 +579,14 @@
   "Cursor": [],
   "Cyclical": [],
   "Data": [
-    "DataSource",
-    "Generator"
+    "Generator",
+    "DataSource"
   ],
   "DataFormat": [
-    "DsvDataFormat",
+    "CsvDataFormat",
     "JsonDataFormat",
     "TopoDataFormat",
-    "CsvDataFormat"
+    "DsvDataFormat"
   ],
   "DataSource": [
     "NamedData",
@@ -599,12 +599,12 @@
     "Month"
   ],
   "DatumDef": [
-    "Type",
-    "RepeatRef",
     "PrimitiveValue",
-    "DateTime",
+    "RepeatRef",
     "Text",
-    "ExprRef"
+    "DateTime",
+    "ExprRef",
+    "Type"
   ],
   "Day": [],
   "DensityTransform": [
@@ -634,41 +634,41 @@
   ],
   "ErrorBand": [],
   "ErrorBandConfig": [
+    "AnyMarkConfig",
     "ErrorBarExtent",
-    "Interpolate",
-    "AnyMarkConfig"
+    "Interpolate"
   ],
   "ErrorBandDef": [
-    "AnyMarkConfig",
-    "Color",
-    "Interpolate",
     "ExprRef",
-    "ErrorBand",
+    "Orientation",
     "ErrorBarExtent",
     "Gradient",
-    "Orientation"
+    "Color",
+    "AnyMarkConfig",
+    "ErrorBand",
+    "Interpolate"
   ],
   "ErrorBar": [],
   "ErrorBarConfig": [
-    "ErrorBarExtent",
-    "AnyMarkConfig"
+    "AnyMarkConfig",
+    "ErrorBarExtent"
   ],
   "ErrorBarDef": [
-    "AnyMarkConfig",
-    "Color",
     "ExprRef",
-    "ErrorBar",
+    "Orientation",
     "ErrorBarExtent",
     "Gradient",
-    "Orientation"
+    "Color",
+    "AnyMarkConfig",
+    "ErrorBar"
   ],
   "ErrorBarExtent": [],
   "EventStream": [
     "Expr",
-    "WindowEventType",
     "Stream",
+    "MarkType",
     "EventType",
-    "MarkType"
+    "WindowEventType"
   ],
   "EventType": [],
   "Expr": [],
@@ -679,302 +679,302 @@
   ],
   "FacetEncodingFieldDef": [
     "Field",
-    "EncodingSortField",
-    "Header",
-    "SortArray",
-    "StandardType",
-    "RowCol<boolean>",
-    "Aggregate",
-    "LayoutAlign",
-    "BinParams",
-    "RowCol<number>",
+    "SortOrder",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
     "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "RowCol<number>",
+    "EncodingSortField",
+    "SortArray",
     "RowCol<LayoutAlign>",
-    "SortOrder"
+    "LayoutAlign",
+    "Header",
+    "RowCol<boolean>",
+    "BinnedTimeUnit"
   ],
   "FacetFieldDef": [
     "Field",
-    "EncodingSortField",
-    "Header",
-    "SortArray",
-    "StandardType",
-    "Text",
-    "BinParams",
+    "SortOrder",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
+    "StandardType",
     "Aggregate",
-    "SortOrder"
+    "BinParams",
+    "EncodingSortField",
+    "SortArray",
+    "Header",
+    "BinnedTimeUnit"
   ],
   "FacetMapping": [
     "FacetFieldDef"
   ],
   "FacetedEncoding": [
     "OrderFieldDef",
+    "PolarDef",
+    "StringFieldDefWithCondition",
+    "ShapeDef",
+    "OrderOnlyDef",
+    "TextDef",
     "StringFieldDef",
-    "OffsetDef",
-    "Position2Def",
     "NumericMarkPropDef",
+    "LatLongDef",
+    "FieldDefWithoutScale",
     "OrderValueDef",
+    "RowColumnEncodingFieldDef",
     "ColorDef",
+    "PositionDef",
+    "SecondaryFieldDef",
+    "StringValueDefWithCondition",
+    "Position2Def",
+    "FacetEncodingFieldDef",
     "ValueDef<number>",
     "NumericArrayMarkPropDef",
-    "ShapeDef",
-    "LatLongDef",
-    "OrderOnlyDef",
-    "FacetEncodingFieldDef",
-    "RowColumnEncodingFieldDef",
-    "TextDef",
-    "PositionDef",
-    "StringFieldDefWithCondition",
-    "StringValueDefWithCondition",
-    "SecondaryFieldDef",
-    "FieldDefWithoutScale",
-    "PolarDef"
+    "OffsetDef"
   ],
   "FacetedUnitSpec": [
-    "Data",
-    "ViewBackground",
-    "SelectionParameter",
-    "AnyMark",
-    "RowCol<boolean>",
-    "Step",
-    "Resolve",
-    "LayoutAlign",
-    "RowCol<number>",
-    "TitleParams",
-    "Text",
     "Transform",
+    "Text",
+    "Step",
+    "Data",
+    "RowCol<number>",
+    "FacetedEncoding",
+    "ViewBackground",
+    "AnyMark",
     "RowCol<LayoutAlign>",
+    "LayoutAlign",
+    "TitleParams",
+    "Resolve",
+    "RowCol<boolean>",
     "Projection",
-    "FacetedEncoding"
+    "SelectionParameter"
   ],
   "Feature": [
+    "BBox",
     "Geometry",
-    "GeoJsonProperties",
-    "BBox"
+    "GeoJsonProperties"
   ],
   "Feature<Geometry,GeoJsonProperties>": [
+    "BBox",
     "Geometry",
-    "GeoJsonProperties",
-    "BBox"
+    "GeoJsonProperties"
   ],
   "FeatureCollection": [
-    "Feature<Geometry,GeoJsonProperties>",
-    "BBox"
+    "BBox",
+    "Feature<Geometry,GeoJsonProperties>"
   ],
   "Field": [
-    "RepeatRef",
-    "FieldName"
+    "FieldName",
+    "RepeatRef"
   ],
   "FieldDefWithoutScale": [
     "Field",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
     "StandardType",
     "Aggregate",
-    "Text",
-    "BinParams"
+    "BinParams",
+    "BinnedTimeUnit"
   ],
   "FieldEqualPredicate": [
     "TimeUnitParams",
-    "TimeUnit",
-    "BinnedTimeUnit",
-    "DateTime",
     "FieldName",
+    "TimeUnit",
+    "DateTime",
+    "BinnedTimeUnit",
     "ExprRef"
   ],
   "FieldGTEPredicate": [
     "TimeUnitParams",
-    "TimeUnit",
-    "BinnedTimeUnit",
-    "DateTime",
     "FieldName",
+    "TimeUnit",
+    "DateTime",
+    "BinnedTimeUnit",
     "ExprRef"
   ],
   "FieldGTPredicate": [
     "TimeUnitParams",
-    "TimeUnit",
-    "BinnedTimeUnit",
-    "DateTime",
     "FieldName",
+    "TimeUnit",
+    "DateTime",
+    "BinnedTimeUnit",
     "ExprRef"
   ],
   "FieldLTEPredicate": [
     "TimeUnitParams",
-    "TimeUnit",
-    "BinnedTimeUnit",
-    "DateTime",
     "FieldName",
+    "TimeUnit",
+    "DateTime",
+    "BinnedTimeUnit",
     "ExprRef"
   ],
   "FieldLTPredicate": [
     "TimeUnitParams",
-    "TimeUnit",
-    "BinnedTimeUnit",
-    "DateTime",
     "FieldName",
+    "TimeUnit",
+    "DateTime",
+    "BinnedTimeUnit",
     "ExprRef"
   ],
   "FieldName": [],
   "FieldOneOfPredicate": [
     "TimeUnitParams",
+    "FieldName",
     "TimeUnit",
-    "BinnedTimeUnit",
     "DateTime",
-    "FieldName"
+    "BinnedTimeUnit"
   ],
   "FieldOrDatumDefWithCondition<DatumDef,(Gradient|string|null)>": [
-    "Type",
-    "RepeatRef",
     "PrimitiveValue",
-    "ConditionalValueDef<(Gradient|string|null|ExprRef)>",
-    "DateTime",
+    "RepeatRef",
     "Text",
-    "ExprRef"
+    "DateTime",
+    "ExprRef",
+    "ConditionalValueDef<(Gradient|string|null|ExprRef)>",
+    "Type"
   ],
   "FieldOrDatumDefWithCondition<DatumDef,(string|null)>": [
-    "Type",
-    "RepeatRef",
     "PrimitiveValue",
+    "RepeatRef",
+    "Text",
     "DateTime",
     "ConditionalValueDef<(string|null|ExprRef)>",
-    "Text",
-    "ExprRef"
+    "ExprRef",
+    "Type"
   ],
   "FieldOrDatumDefWithCondition<DatumDef,number>": [
-    "Type",
-    "RepeatRef",
     "PrimitiveValue",
-    "DateTime",
-    "Text",
+    "RepeatRef",
     "ConditionalValueDef<(number|ExprRef)>",
-    "ExprRef"
+    "Text",
+    "DateTime",
+    "ExprRef",
+    "Type"
   ],
   "FieldOrDatumDefWithCondition<DatumDef,number[]>": [
-    "Type",
-    "RepeatRef",
     "PrimitiveValue",
-    "DateTime",
-    "ConditionalValueDef<(number[]|ExprRef)>",
+    "RepeatRef",
     "Text",
-    "ExprRef"
+    "ConditionalValueDef<(number[]|ExprRef)>",
+    "DateTime",
+    "ExprRef",
+    "Type"
   ],
   "FieldOrDatumDefWithCondition<MarkPropFieldDef,(Gradient|string|null)>": [
     "Field",
-    "StandardType",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "Scale",
+    "BinParams",
+    "Sort",
     "ConditionalValueDef<(Gradient|string|null|ExprRef)>",
-    "Legend",
-    "Aggregate"
+    "Legend"
   ],
   "FieldOrDatumDefWithCondition<MarkPropFieldDef,number>": [
     "Field",
-    "StandardType",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Legend",
+    "Text",
+    "StandardType",
     "Aggregate",
-    "ConditionalValueDef<(number|ExprRef)>"
+    "Scale",
+    "BinParams",
+    "ConditionalValueDef<(number|ExprRef)>",
+    "Sort",
+    "Legend"
   ],
   "FieldOrDatumDefWithCondition<MarkPropFieldDef,number[]>": [
     "Field",
-    "StandardType",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Legend",
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "Scale",
+    "BinParams",
     "ConditionalValueDef<(number[]|ExprRef)>",
-    "Aggregate"
+    "Sort",
+    "Legend"
   ],
   "FieldOrDatumDefWithCondition<MarkPropFieldDef<TypeForShape>,(string|null)>": [
     "Field",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Legend",
-    "ConditionalValueDef<(string|null|ExprRef)>",
+    "Text",
     "TypeForShape",
-    "Aggregate"
+    "Aggregate",
+    "Scale",
+    "BinParams",
+    "ConditionalValueDef<(string|null|ExprRef)>",
+    "Sort",
+    "Legend"
   ],
   "FieldOrDatumDefWithCondition<StringDatumDef,Text>": [
-    "Type",
-    "RepeatRef",
     "PrimitiveValue",
     "DateTime",
-    "ConditionalValueDef<(Text|ExprRef)>",
+    "RepeatRef",
     "Text",
+    "ConditionalValueDef<(Text|ExprRef)>",
     "Dict",
-    "ExprRef"
+    "ExprRef",
+    "Type"
   ],
   "FieldOrDatumDefWithCondition<StringFieldDef,Text>": [
     "Field",
-    "StandardType",
-    "ConditionalValueDef<(Text|ExprRef)>",
-    "Dict",
-    "Text",
-    "BinParams",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "Dict",
+    "ConditionalValueDef<(Text|ExprRef)>",
+    "BinnedTimeUnit"
   ],
   "FieldOrDatumDefWithCondition<StringFieldDef,string>": [
     "Field",
-    "StandardType",
-    "Dict",
     "ConditionalValueDef<(string|ExprRef)>",
-    "Text",
-    "BinParams",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "Dict",
+    "BinnedTimeUnit"
   ],
   "FieldRange": [],
   "FieldRangePredicate": [
     "TimeUnitParams",
-    "TimeUnit",
-    "BinnedTimeUnit",
-    "DateTime",
     "FieldName",
+    "TimeUnit",
+    "DateTime",
+    "BinnedTimeUnit",
     "ExprRef"
   ],
   "FieldValidPredicate": [
     "TimeUnitParams",
-    "TimeUnit",
+    "FieldName",
     "BinnedTimeUnit",
-    "FieldName"
+    "TimeUnit"
   ],
   "FilterTransform": [
     "PredicateComposition"
   ],
   "Fit": [
-    "GeoJsonFeature",
-    "GeoJsonFeatureCollection"
+    "GeoJsonFeatureCollection",
+    "GeoJsonFeature"
   ],
   "FlattenTransform": [
     "FieldName"
@@ -986,94 +986,94 @@
   "FontWeight": [],
   "FormatConfig": [],
   "Generator": [
-    "SequenceGenerator",
     "GraticuleGenerator",
-    "SphereGenerator"
+    "SphereGenerator",
+    "SequenceGenerator"
   ],
   "ConcatSpec<GenericSpec>": [
-    "Data",
-    "RowCol<boolean>",
-    "Resolve",
-    "LayoutAlign",
-    "RowCol<number>",
-    "TitleParams",
-    "Text",
-    "Spec",
     "Transform",
-    "RowCol<LayoutAlign>"
+    "Text",
+    "Data",
+    "RowCol<number>",
+    "Spec",
+    "RowCol<LayoutAlign>",
+    "LayoutAlign",
+    "TitleParams",
+    "Resolve",
+    "RowCol<boolean>"
   ],
   "FacetSpec": [
-    "Data",
-    "FacetFieldDef",
-    "RowCol<boolean>",
-    "Resolve",
-    "LayoutAlign",
-    "RowCol<number>",
-    "FacetMapping",
     "FacetedUnitSpec",
-    "LayerSpec",
-    "TitleParams",
-    "Text",
     "Transform",
-    "RowCol<LayoutAlign>"
+    "Text",
+    "Data",
+    "RowCol<number>",
+    "RowCol<LayoutAlign>",
+    "LayoutAlign",
+    "FacetFieldDef",
+    "TitleParams",
+    "Resolve",
+    "RowCol<boolean>",
+    "FacetMapping",
+    "LayerSpec"
   ],
   "HConcatSpec<GenericSpec>": [
+    "Transform",
+    "Text",
     "TitleParams",
     "Data",
-    "Spec",
-    "Transform",
     "Resolve",
-    "Text"
+    "Spec"
   ],
   "Spec": [
-    "HConcatSpec<GenericSpec>",
-    "RepeatSpec",
     "FacetedUnitSpec",
-    "LayerSpec",
-    "FacetSpec",
     "ConcatSpec<GenericSpec>",
-    "VConcatSpec<GenericSpec>"
+    "HConcatSpec<GenericSpec>",
+    "FacetSpec",
+    "RepeatSpec",
+    "VConcatSpec<GenericSpec>",
+    "LayerSpec"
   ],
   "GenericUnitSpec<Encoding,AnyMark>": [
-    "Data",
-    "Encoding",
-    "SelectionParameter",
-    "AnyMark",
-    "Text",
     "Transform",
+    "Text",
+    "Data",
+    "AnyMark",
+    "Encoding",
     "TitleParams",
-    "Projection"
+    "Projection",
+    "SelectionParameter"
   ],
   "VConcatSpec<GenericSpec>": [
-    "Data",
-    "Spec",
     "Transform",
-    "Resolve",
+    "Text",
     "TitleParams",
-    "Text"
+    "Data",
+    "Resolve",
+    "Spec"
   ],
   "GeoJsonFeature": [
+    "BBox",
     "Geometry",
-    "GeoJsonProperties",
-    "BBox"
+    "GeoJsonProperties"
   ],
   "GeoJsonFeatureCollection": [
-    "Feature<Geometry,GeoJsonProperties>",
-    "BBox"
+    "BBox",
+    "Feature<Geometry,GeoJsonProperties>"
   ],
   "GeoJsonProperties": [],
   "Geometry": [
-    "Point",
-    "LineString",
     "MultiLineString",
-    "MultiPoint",
     "GeometryCollection",
+    "Polygon",
+    "LineString",
     "MultiPolygon",
-    "Polygon"
+    "MultiPoint",
+    "Point"
   ],
   "GeometryCollection": [
-    "Geometry",
-    "BBox"
+    "BBox",
+    "Geometry"
   ],
   "Gradient": [
     "LinearGradient",
@@ -1090,27 +1090,27 @@
     "Vector2<number>"
   ],
   "Header": [
-    "Align",
+    "Text",
     "FontWeight",
-    "TitleAnchor",
     "Dict",
-    "FontStyle",
-    "Color",
     "ExprRef",
-    "TextBaseline",
+    "Align",
+    "FontStyle",
     "Orient",
-    "Text"
+    "Color",
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "HeaderConfig": [
-    "Align",
     "FontWeight",
-    "TitleAnchor",
     "Dict",
-    "FontStyle",
-    "Color",
     "ExprRef",
-    "TextBaseline",
-    "Orient"
+    "Align",
+    "FontStyle",
+    "Orient",
+    "Color",
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "HexColor": [],
   "ImputeMethod": [],
@@ -1121,8 +1121,8 @@
   "ImputeSequence": [],
   "ImputeTransform": [
     "ImputeSequence",
-    "ImputeMethod",
-    "FieldName"
+    "FieldName",
+    "ImputeMethod"
   ],
   "InlineData": [
     "DataFormat",
@@ -1132,108 +1132,108 @@
   "Interpolate": [],
   "IntervalSelectionConfig": [
     "FieldName",
-    "Stream",
     "SelectionResolution",
+    "BrushConfig",
     "SingleDefUnitChannel",
-    "BrushConfig"
+    "Stream"
   ],
   "IntervalSelectionConfigWithoutType": [
     "FieldName",
-    "Stream",
     "SelectionResolution",
+    "BrushConfig",
     "SingleDefUnitChannel",
-    "BrushConfig"
+    "Stream"
   ],
   "JoinAggregateFieldDef": [
-    "AggregateOp",
-    "FieldName"
+    "FieldName",
+    "AggregateOp"
   ],
   "JoinAggregateTransform": [
-    "JoinAggregateFieldDef",
-    "FieldName"
+    "FieldName",
+    "JoinAggregateFieldDef"
   ],
   "JsonDataFormat": [
     "Parse"
   ],
   "LabelOverlap": [],
   "LatLongDef": [
-    "LatLongFieldDef",
-    "DatumDef"
+    "DatumDef",
+    "LatLongFieldDef"
   ],
   "LatLongFieldDef": [
     "Field",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
     "Aggregate",
-    "Text"
+    "BinnedTimeUnit"
   ],
   "LayerRepeatMapping": [],
   "LayerRepeatSpec": [
-    "Data",
-    "LayerRepeatMapping",
-    "UnitSpecWithFrame",
-    "RowCol<boolean>",
-    "Resolve",
-    "LayoutAlign",
-    "RowCol<number>",
-    "TitleParams",
-    "Text",
-    "LayerSpec",
     "Transform",
-    "RowCol<LayoutAlign>"
+    "Text",
+    "Data",
+    "RowCol<number>",
+    "LayerSpec",
+    "RowCol<LayoutAlign>",
+    "LayoutAlign",
+    "TitleParams",
+    "Resolve",
+    "RowCol<boolean>",
+    "LayerRepeatMapping",
+    "UnitSpecWithFrame"
   ],
   "LayerSpec": [
+    "SharedEncoding",
+    "UnitSpec",
+    "Transform",
+    "Text",
+    "Step",
     "Data",
     "ViewBackground",
-    "Step",
-    "Resolve",
-    "Text",
-    "SharedEncoding",
-    "LayerSpec",
-    "Transform",
-    "UnitSpec",
     "TitleParams",
-    "Projection"
+    "Resolve",
+    "Projection",
+    "LayerSpec"
   ],
   "LayoutAlign": [],
   "Legend": [
-    "Align",
-    "LegendOrient",
-    "FontWeight",
-    "TickCount",
-    "Dict",
-    "FontStyle",
-    "Color",
-    "SymbolShape",
-    "LayoutAlign",
-    "ExprRef",
-    "TextBaseline",
     "Text",
-    "TitleAnchor",
-    "LabelOverlap",
-    "Orient",
     "DateTime",
-    "Orientation"
+    "FontWeight",
+    "Dict",
+    "LegendOrient",
+    "ExprRef",
+    "Align",
+    "Orientation",
+    "FontStyle",
+    "LabelOverlap",
+    "LayoutAlign",
+    "SymbolShape",
+    "TickCount",
+    "Color",
+    "Orient",
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "LegendBinding": [
     "LegendStreamBinding"
   ],
   "LegendConfig": [
-    "Align",
-    "LegendOrient",
     "FontWeight",
-    "TickCount",
-    "SymbolShape",
-    "FontStyle",
-    "Color",
-    "TitleAnchor",
-    "LayoutAlign",
+    "LegendOrient",
     "ExprRef",
-    "TextBaseline",
-    "Orient",
+    "Align",
+    "FontStyle",
+    "Orientation",
     "LabelOverlap",
-    "Orientation"
+    "LayoutAlign",
+    "SymbolShape",
+    "TickCount",
+    "Color",
+    "Orient",
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "LegendOrient": [],
   "LegendResolveMap": [
@@ -1244,25 +1244,25 @@
   ],
   "LineConfig": [
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "OverlayMarkDef",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "OverlayMarkDef",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
-    "Gradient"
+    "Align",
+    "SymbolShape",
+    "Gradient",
+    "StrokeCap",
+    "Interpolate"
   ],
   "LineString": [
     "Position",
@@ -1284,10 +1284,10 @@
     "PredicateComposition"
   ],
   "PredicateComposition": [
-    "LogicalAnd<Predicate>",
+    "LogicalNot<Predicate>",
     "Predicate",
     "LogicalOr<Predicate>",
-    "LogicalNot<Predicate>"
+    "LogicalAnd<Predicate>"
   ],
   "LogicalNot<Predicate>": [
     "PredicateComposition"
@@ -1296,63 +1296,63 @@
     "PredicateComposition"
   ],
   "LookupData": [
-    "Data",
-    "FieldName"
+    "FieldName",
+    "Data"
   ],
   "LookupSelection": [
     "ParameterName",
     "FieldName"
   ],
   "LookupTransform": [
-    "LookupSelection",
+    "LookupData",
     "FieldName",
-    "LookupData"
+    "LookupSelection"
   ],
   "Mark": [],
   "MarkConfig": [
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
-    "Gradient"
+    "Align",
+    "SymbolShape",
+    "Gradient",
+    "StrokeCap",
+    "Interpolate"
   ],
   "MarkDef": [
+    "RelativeBandSize",
     "URI",
-    "Mark",
-    "Cursor",
-    "Color",
-    "ExprRef",
-    "TextBaseline",
-    "Text",
-    "OverlayMarkDef",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
     "FontWeight",
-    "TooltipContent",
     "MarkInvalidDataMode",
-    "SymbolShape",
+    "ExprRef",
+    "Orientation",
     "FontStyle",
-    "Interpolate",
+    "OverlayMarkDef",
+    "Color",
     "StrokeJoin",
+    "TextBaseline",
+    "Mark",
+    "Text",
+    "TooltipContent",
+    "Cursor",
+    "Blend",
     "TextDirection",
+    "Align",
+    "SymbolShape",
     "Gradient",
-    "RelativeBandSize"
+    "StrokeCap",
+    "Interpolate"
   ],
   "MarkInvalidDataMode": [],
   "MarkPropDef<(Gradient|string|null)>": [
@@ -1361,9 +1361,9 @@
     "ValueDefWithCondition<MarkPropFieldOrDatumDef,(Gradient|string|null)>"
   ],
   "MarkPropDef<(string|null),TypeForShape>": [
-    "FieldOrDatumDefWithCondition<DatumDef,(string|null)>",
     "ValueDefWithCondition<MarkPropFieldOrDatumDef<TypeForShape>,(string|null)>",
-    "FieldOrDatumDefWithCondition<MarkPropFieldDef<TypeForShape>,(string|null)>"
+    "FieldOrDatumDefWithCondition<MarkPropFieldDef<TypeForShape>,(string|null)>",
+    "FieldOrDatumDefWithCondition<DatumDef,(string|null)>"
   ],
   "MarkPropDef<number>": [
     "ValueDefWithCondition<MarkPropFieldOrDatumDef,number>",
@@ -1371,8 +1371,8 @@
     "FieldOrDatumDefWithCondition<DatumDef,number>"
   ],
   "MarkPropDef<number[]>": [
-    "FieldOrDatumDefWithCondition<MarkPropFieldDef,number[]>",
     "ValueDefWithCondition<MarkPropFieldOrDatumDef,number[]>",
+    "FieldOrDatumDefWithCondition<MarkPropFieldDef,number[]>",
     "FieldOrDatumDefWithCondition<DatumDef,number[]>"
   ],
   "MarkType": [],
@@ -1395,42 +1395,42 @@
     "BBox"
   ],
   "MultiTimeUnit": [
-    "UtcMultiTimeUnit",
-    "LocalMultiTimeUnit"
+    "LocalMultiTimeUnit",
+    "UtcMultiTimeUnit"
   ],
   "NamedData": [
     "DataFormat"
   ],
   "NonArgAggregateOp": [],
   "NonLayerRepeatSpec": [
-    "Data",
-    "RowCol<boolean>",
-    "NonNormalizedSpec",
-    "Resolve",
-    "LayoutAlign",
-    "RowCol<number>",
-    "TitleParams",
-    "Text",
     "RepeatMapping",
     "Transform",
-    "RowCol<LayoutAlign>"
+    "Text",
+    "Data",
+    "RowCol<number>",
+    "RowCol<LayoutAlign>",
+    "LayoutAlign",
+    "NonNormalizedSpec",
+    "TitleParams",
+    "Resolve",
+    "RowCol<boolean>"
   ],
   "NonNormalizedSpec": [
-    "HConcatSpec<GenericSpec>",
-    "RepeatSpec",
     "FacetedUnitSpec",
-    "LayerSpec",
-    "FacetSpec",
     "ConcatSpec<GenericSpec>",
-    "VConcatSpec<GenericSpec>"
+    "HConcatSpec<GenericSpec>",
+    "FacetSpec",
+    "RepeatSpec",
+    "VConcatSpec<GenericSpec>",
+    "LayerSpec"
   ],
   "NumberLocale": [
     "Vector10<string>",
     "Vector2<string>"
   ],
   "NumericArrayMarkPropDef": [
-    "FieldOrDatumDefWithCondition<MarkPropFieldDef,number[]>",
     "ValueDefWithCondition<MarkPropFieldOrDatumDef,number[]>",
+    "FieldOrDatumDefWithCondition<MarkPropFieldDef,number[]>",
     "FieldOrDatumDefWithCondition<DatumDef,number[]>"
   ],
   "NumericMarkPropDef": [
@@ -1439,20 +1439,20 @@
     "FieldOrDatumDefWithCondition<DatumDef,number>"
   ],
   "OffsetDef": [
-    "ValueDef<number>",
     "ScaleFieldDef",
+    "ValueDef<number>",
     "ScaleDatumDef"
   ],
   "OrderFieldDef": [
-    "Text",
-    "TimeUnitParams",
     "TimeUnit",
-    "SortOrder",
-    "Field",
-    "StandardType",
+    "Aggregate",
     "BinParams",
     "BinnedTimeUnit",
-    "Aggregate"
+    "Field",
+    "SortOrder",
+    "TimeUnitParams",
+    "Text",
+    "StandardType"
   ],
   "OrderOnlyDef": [
     "SortOrder"
@@ -1465,24 +1465,24 @@
   "Orientation": [],
   "OverlayMarkDef": [
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
-    "Gradient"
+    "Align",
+    "SymbolShape",
+    "Gradient",
+    "StrokeCap",
+    "Interpolate"
   ],
   "Padding": [],
   "ParameterExtent": [
@@ -1497,8 +1497,8 @@
   "Parse": [],
   "ParseValue": [],
   "PivotTransform": [
-    "AggregateOp",
-    "FieldName"
+    "FieldName",
+    "AggregateOp"
   ],
   "Point": [
     "Position",
@@ -1506,20 +1506,20 @@
   ],
   "PointSelectionConfig": [
     "SingleDefUnitChannel",
-    "FieldName",
     "Stream",
-    "SelectionResolution"
+    "SelectionResolution",
+    "FieldName"
   ],
   "PointSelectionConfigWithoutType": [
     "SingleDefUnitChannel",
-    "FieldName",
     "Stream",
-    "SelectionResolution"
+    "SelectionResolution",
+    "FieldName"
   ],
   "PolarDef": [
-    "PositionFieldDefBase",
     "PositionDatumDefBase",
-    "PositionValueDef"
+    "PositionValueDef",
+    "PositionFieldDefBase"
   ],
   "Polygon": [
     "Position",
@@ -1527,31 +1527,31 @@
   ],
   "Position": [],
   "Position2Def": [
-    "SecondaryFieldDef",
     "PositionValueDef",
-    "DatumDef"
+    "DatumDef",
+    "SecondaryFieldDef"
   ],
   "PositionDatumDef": [
-    "RepeatRef",
     "PrimitiveValue",
-    "Axis",
-    "Scale",
-    "ExprRef",
+    "RepeatRef",
     "Text",
-    "StackOffset",
-    "Type",
+    "Scale",
     "DateTime",
+    "StackOffset",
+    "ExprRef",
+    "Type",
+    "Axis",
     "ImputeParams"
   ],
   "PositionDatumDefBase": [
-    "StackOffset",
-    "RepeatRef",
-    "PrimitiveValue",
-    "Type",
-    "DateTime",
-    "Text",
     "Scale",
-    "ExprRef"
+    "PrimitiveValue",
+    "RepeatRef",
+    "Text",
+    "DateTime",
+    "StackOffset",
+    "ExprRef",
+    "Type"
   ],
   "PositionDef": [
     "PositionValueDef",
@@ -1560,61 +1560,61 @@
   ],
   "PositionFieldDef": [
     "Field",
-    "StandardType",
-    "Axis",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
-    "StackOffset",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "Scale",
+    "BinParams",
+    "StackOffset",
     "ImputeParams",
-    "Aggregate"
+    "Axis",
+    "Sort"
   ],
   "PositionFieldDefBase": [
     "Field",
-    "StandardType",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
-    "StackOffset",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "Scale",
+    "StackOffset",
+    "Sort"
   ],
   "PositionValueDef": [
     "ExprRef"
   ],
   "Predicate": [
-    "FieldOneOfPredicate",
-    "FieldEqualPredicate",
-    "FieldLTPredicate",
-    "ParameterPredicate",
     "FieldRangePredicate",
+    "ParameterPredicate",
+    "FieldLTPredicate",
+    "FieldLTEPredicate",
     "FieldGTPredicate",
-    "FieldValidPredicate",
     "FieldGTEPredicate",
-    "FieldLTEPredicate"
+    "FieldValidPredicate",
+    "FieldOneOfPredicate",
+    "FieldEqualPredicate"
   ],
   "PrimitiveValue": [],
   "Projection": [
-    "ProjectionType",
-    "Vector2<number>",
     "Vector3<number>",
-    "Fit",
+    "Vector2<number>",
+    "ProjectionType",
     "Vector2<Vector2<number>>",
+    "Fit",
     "ExprRef"
   ],
   "ProjectionConfig": [
-    "ProjectionType",
-    "Vector2<number>",
     "Vector3<number>",
-    "Fit",
+    "Vector2<number>",
+    "ProjectionType",
     "Vector2<Vector2<number>>",
+    "Fit",
     "ExprRef"
   ],
   "ProjectionType": [],
@@ -1625,9 +1625,9 @@
     "GradientStop"
   ],
   "RangeConfig": [
-    "SymbolShape",
+    "RangeScheme",
     "Color",
-    "RangeScheme"
+    "SymbolShape"
   ],
   "RangeEnum": [],
   "RangeRaw": [
@@ -1635,31 +1635,31 @@
   ],
   "RangeRawArray": [],
   "RangeScheme": [
+    "ColorScheme",
     "RangeEnum",
-    "RangeRaw",
-    "ColorScheme"
+    "RangeRaw"
   ],
   "RectConfig": [
+    "RelativeBandSize",
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
+    "Align",
+    "SymbolShape",
     "Gradient",
-    "RelativeBandSize"
+    "StrokeCap",
+    "Interpolate"
   ],
   "RegressionTransform": [
     "FieldName"
@@ -1672,9 +1672,9 @@
     "NonLayerRepeatSpec"
   ],
   "Resolve": [
+    "AxisResolveMap",
     "LegendResolveMap",
-    "ScaleResolveMap",
-    "AxisResolveMap"
+    "ScaleResolveMap"
   ],
   "ResolveMode": [],
   "RowCol<LayoutAlign>": [
@@ -1684,85 +1684,85 @@
   "RowCol<number>": [],
   "RowColumnEncodingFieldDef": [
     "Field",
-    "EncodingSortField",
-    "Header",
-    "SortArray",
-    "StandardType",
-    "LayoutAlign",
-    "BinParams",
-    "Text",
+    "SortOrder",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
+    "StandardType",
     "Aggregate",
-    "SortOrder"
+    "BinParams",
+    "EncodingSortField",
+    "SortArray",
+    "LayoutAlign",
+    "Header",
+    "BinnedTimeUnit"
   ],
   "SampleTransform": [],
   "Scale": [
-    "SchemeParams",
-    "FieldRange",
-    "ColorScheme",
-    "TimeIntervalStep",
     "ScaleBins",
-    "ExprRef",
-    "ScaleType",
-    "ParameterExtent",
-    "DomainUnionWith",
-    "TimeInterval",
+    "TimeIntervalStep",
+    "RangeEnum",
     "DateTime",
+    "FieldRange",
+    "ExprRef",
+    "ParameterExtent",
+    "ColorScheme",
+    "TimeInterval",
+    "ScaleType",
+    "SchemeParams",
     "ScaleInterpolateEnum",
-    "ScaleInterpolateParams",
-    "RangeEnum"
+    "DomainUnionWith",
+    "ScaleInterpolateParams"
   ],
   "ScaleBinParams": [],
   "ScaleBins": [
     "ScaleBinParams"
   ],
   "ScaleConfig": [
-    "ScaleInvalidDataConfig",
-    "ExprRef"
+    "ExprRef",
+    "ScaleInvalidDataConfig"
   ],
   "ScaleDatumDef": [
-    "Type",
-    "RepeatRef",
-    "PrimitiveValue",
-    "DateTime",
-    "Text",
     "Scale",
-    "ExprRef"
+    "PrimitiveValue",
+    "RepeatRef",
+    "Text",
+    "DateTime",
+    "ExprRef",
+    "Type"
   ],
   "ScaleFieldDef": [
     "Field",
-    "StandardType",
-    "Sort",
-    "Scale",
-    "Text",
-    "BinParams",
+    "BinnedTimeUnit",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "Scale",
+    "Sort"
   ],
   "ScaleInterpolateEnum": [],
   "ScaleInterpolateParams": [],
   "ScaleInvalidDataConfig": [
-    "ScaleInvalidDataShowAs<\"fill\">",
-    "ScaleInvalidDataShowAs<\"xOffset\">",
-    "ScaleInvalidDataShowAs<\"yOffset\">",
-    "ScaleInvalidDataShowAs<\"strokeOpacity\">",
-    "ScaleInvalidDataShowAs<\"radius\">",
-    "ScaleInvalidDataShowAs<\"strokeDash\">",
     "ScaleInvalidDataShowAs<\"color\">",
-    "ScaleInvalidDataShowAs<\"y\">",
-    "ScaleInvalidDataShowAs<\"fillOpacity\">",
-    "ScaleInvalidDataShowAs<\"theta\">",
     "ScaleInvalidDataShowAs<\"size\">",
-    "ScaleInvalidDataShowAs<\"strokeWidth\">",
-    "ScaleInvalidDataShowAs<\"stroke\">",
-    "ScaleInvalidDataShowAs<\"shape\">",
     "ScaleInvalidDataShowAs<\"angle\">",
+    "ScaleInvalidDataShowAs<\"radius\">",
+    "ScaleInvalidDataShowAs<\"fill\">",
+    "ScaleInvalidDataShowAs<\"fillOpacity\">",
+    "ScaleInvalidDataShowAs<\"shape\">",
+    "ScaleInvalidDataShowAs<\"stroke\">",
+    "ScaleInvalidDataShowAs<\"theta\">",
+    "ScaleInvalidDataShowAs<\"opacity\">",
+    "ScaleInvalidDataShowAs<\"xOffset\">",
+    "ScaleInvalidDataShowAs<\"y\">",
+    "ScaleInvalidDataShowAs<\"strokeDash\">",
+    "ScaleInvalidDataShowAs<\"strokeWidth\">",
     "ScaleInvalidDataShowAs<\"x\">",
-    "ScaleInvalidDataShowAs<\"opacity\">"
+    "ScaleInvalidDataShowAs<\"yOffset\">",
+    "ScaleInvalidDataShowAs<\"strokeOpacity\">"
   ],
   "ScaleInvalidDataShowAs<\"angle\">": [
     "ScaleInvalidDataShowAsValue<\"angle\">"
@@ -1817,12 +1817,12 @@
   ],
   "ScaleInvalidDataShowAsValue<\"angle\">": [],
   "ScaleInvalidDataShowAsValue<\"color\">": [
-    "Color",
-    "Gradient"
+    "Gradient",
+    "Color"
   ],
   "ScaleInvalidDataShowAsValue<\"fill\">": [
-    "Color",
-    "Gradient"
+    "Gradient",
+    "Color"
   ],
   "ScaleInvalidDataShowAsValue<\"fillOpacity\">": [],
   "ScaleInvalidDataShowAsValue<\"opacity\">": [],
@@ -1832,8 +1832,8 @@
   ],
   "ScaleInvalidDataShowAsValue<\"size\">": [],
   "ScaleInvalidDataShowAsValue<\"stroke\">": [
-    "Color",
-    "Gradient"
+    "Gradient",
+    "Color"
   ],
   "ScaleInvalidDataShowAsValue<\"strokeDash\">": [],
   "ScaleInvalidDataShowAsValue<\"strokeOpacity\">": [],
@@ -1854,17 +1854,17 @@
     "Field",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
     "Aggregate",
-    "Text"
+    "BinnedTimeUnit"
   ],
   "SelectionConfig": [
-    "IntervalSelectionConfigWithoutType",
-    "PointSelectionConfigWithoutType"
+    "PointSelectionConfigWithoutType",
+    "IntervalSelectionConfigWithoutType"
   ],
   "SelectionInit": [
-    "PrimitiveValue",
-    "DateTime"
+    "DateTime",
+    "PrimitiveValue"
   ],
   "SelectionInitInterval": [
     "Vector2<boolean>",
@@ -1875,15 +1875,15 @@
   "SelectionInitIntervalMapping": [],
   "SelectionInitMapping": [],
   "SelectionParameter": [
-    "Binding",
-    "ParameterName",
-    "SelectionInit",
-    "SelectionInitMapping",
-    "SelectionType",
-    "LegendBinding",
-    "IntervalSelectionConfig",
     "SelectionInitIntervalMapping",
-    "PointSelectionConfig"
+    "IntervalSelectionConfig",
+    "SelectionInitMapping",
+    "Binding",
+    "LegendBinding",
+    "ParameterName",
+    "PointSelectionConfig",
+    "SelectionInit",
+    "SelectionType"
   ],
   "SelectionResolution": [],
   "SelectionType": [],
@@ -1896,49 +1896,49 @@
   "SequentialMultiHue": [],
   "SequentialSingleHue": [],
   "ShapeDef": [
-    "FieldOrDatumDefWithCondition<DatumDef,(string|null)>",
     "ValueDefWithCondition<MarkPropFieldOrDatumDef<TypeForShape>,(string|null)>",
-    "FieldOrDatumDefWithCondition<MarkPropFieldDef<TypeForShape>,(string|null)>"
+    "FieldOrDatumDefWithCondition<MarkPropFieldDef<TypeForShape>,(string|null)>",
+    "FieldOrDatumDefWithCondition<DatumDef,(string|null)>"
   ],
   "SharedEncoding": [
-    "OrderFieldDef",
-    "ExprRef",
-    "Type",
-    "Legend",
-    "ConditionalValueDef<(Gradient|string|null|ExprRef)>",
-    "ImputeParams",
-    "ConditionalValueDef<(number|ExprRef)>",
-    "PrimitiveValue",
-    "Axis",
-    "Dict",
-    "OrderOnlyDef",
-    "Scale",
-    "ConditionalMarkPropFieldOrDatumDef<TypeForShape>",
-    "BinParams",
-    "StringFieldDefWithCondition",
-    "StringValueDefWithCondition",
-    "Aggregate",
-    "FieldDefWithoutScale",
-    "RepeatRef",
-    "StringFieldDef",
-    "Text",
-    "StackOffset",
-    "TimeUnitParams",
-    "TimeUnit",
-    "TypeForShape",
-    "OrderValueDef",
-    "Field",
-    "StandardType",
-    "Sort",
-    "ConditionalValueDef<(Text|ExprRef)>",
     "ConditionalValueDef<(string|ExprRef)>",
-    "BinnedTimeUnit",
-    "DateTime",
+    "TypeForShape",
+    "PrimitiveValue",
+    "RepeatRef",
+    "TimeUnit",
+    "StringFieldDefWithCondition",
+    "BinParams",
+    "Scale",
     "ConditionalValueDef<(string|null|ExprRef)>",
-    "Gradient",
+    "ExprRef",
+    "Axis",
     "ConditionalValueDef<(number[]|ExprRef)>",
+    "ConditionalValueDef<(Text|ExprRef)>",
+    "OrderValueDef",
+    "BinnedTimeUnit",
+    "ImputeParams",
+    "Field",
+    "StackOffset",
+    "ConditionalMarkPropFieldOrDatumDef<TypeForShape>",
+    "Type",
+    "Gradient",
+    "Sort",
+    "ConditionalValueDef<(Gradient|string|null|ExprRef)>",
+    "Legend",
+    "ConditionalStringFieldDef",
+    "OrderFieldDef",
+    "Aggregate",
+    "OrderOnlyDef",
+    "Dict",
+    "StringFieldDef",
     "ConditionalMarkPropFieldOrDatumDef",
-    "ConditionalStringFieldDef"
+    "FieldDefWithoutScale",
+    "TimeUnitParams",
+    "Text",
+    "StandardType",
+    "DateTime",
+    "StringValueDefWithCondition",
+    "ConditionalValueDef<(number|ExprRef)>"
   ],
   "SingleDefUnitChannel": [],
   "SingleTimeUnit": [
@@ -1946,10 +1946,10 @@
     "UtcSingleTimeUnit"
   ],
   "Sort": [
-    "SortByEncoding",
+    "AllSortString",
     "EncodingSortField",
     "SortArray",
-    "AllSortString"
+    "SortByEncoding"
   ],
   "SortArray": [
     "DateTime"
@@ -1957,12 +1957,12 @@
   "SortByChannel": [],
   "SortByChannelDesc": [],
   "SortByEncoding": [
-    "SortByChannel",
-    "SortOrder"
+    "SortOrder",
+    "SortByChannel"
   ],
   "SortField": [
-    "FieldName",
-    "SortOrder"
+    "SortOrder",
+    "FieldName"
   ],
   "SortOrder": [],
   "SphereGenerator": [],
@@ -1977,47 +1977,47 @@
   ],
   "StepFor": [],
   "Stream": [
-    "DerivedStream",
     "EventStream",
-    "MergedStream"
+    "MergedStream",
+    "DerivedStream"
   ],
   "StringFieldDef": [
-    "Text",
-    "TimeUnitParams",
     "TimeUnit",
-    "Field",
-    "StandardType",
-    "Dict",
+    "Aggregate",
     "BinParams",
+    "Dict",
     "BinnedTimeUnit",
-    "Aggregate"
+    "Field",
+    "TimeUnitParams",
+    "Text",
+    "StandardType"
   ],
   "StringFieldDefWithCondition": [
     "Field",
-    "StandardType",
-    "Dict",
     "ConditionalValueDef<(string|ExprRef)>",
-    "Text",
-    "BinParams",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
-    "Aggregate"
+    "Text",
+    "StandardType",
+    "Aggregate",
+    "BinParams",
+    "Dict",
+    "BinnedTimeUnit"
   ],
   "StringValueDefWithCondition": [
-    "ConditionalValueDef<(string|null|ExprRef)>",
     "ConditionalMarkPropFieldOrDatumDef",
-    "ExprRef"
+    "ExprRef",
+    "ConditionalValueDef<(string|null|ExprRef)>"
   ],
   "StrokeCap": [],
   "StrokeJoin": [],
   "StyleConfigIndex": [
-    "RectConfig",
-    "BarConfig",
-    "AreaConfig",
-    "LineConfig",
+    "TickConfig",
     "MarkConfig",
-    "TickConfig"
+    "BarConfig",
+    "RectConfig",
+    "LineConfig",
+    "AreaConfig"
   ],
   "SymbolShape": [],
   "Text": [],
@@ -2025,44 +2025,44 @@
     "Baseline"
   ],
   "TextDef": [
-    "ValueDefWithCondition<StringFieldDef,Text>",
+    "FieldOrDatumDefWithCondition<StringFieldDef,Text>",
     "FieldOrDatumDefWithCondition<StringDatumDef,Text>",
-    "FieldOrDatumDefWithCondition<StringFieldDef,Text>"
+    "ValueDefWithCondition<StringFieldDef,Text>"
   ],
   "TextDirection": [],
   "TickConfig": [
     "URI",
-    "Cursor",
-    "Color",
+    "FontWeight",
+    "MarkInvalidDataMode",
     "ExprRef",
+    "Orientation",
+    "FontStyle",
+    "Color",
+    "StrokeJoin",
     "TextBaseline",
     "Text",
-    "Orientation",
-    "Blend",
-    "Align",
-    "StrokeCap",
-    "FontWeight",
     "TooltipContent",
-    "MarkInvalidDataMode",
-    "SymbolShape",
-    "FontStyle",
-    "Interpolate",
-    "StrokeJoin",
+    "Cursor",
+    "Blend",
     "TextDirection",
-    "Gradient"
+    "Align",
+    "SymbolShape",
+    "Gradient",
+    "StrokeCap",
+    "Interpolate"
   ],
   "TickCount": [
-    "TimeInterval",
-    "TimeIntervalStep"
+    "TimeIntervalStep",
+    "TimeInterval"
   ],
   "TimeInterval": [],
   "TimeIntervalStep": [
     "TimeInterval"
   ],
   "TimeLocale": [
-    "Vector12<string>",
+    "Vector7<string>",
     "Vector2<string>",
-    "Vector7<string>"
+    "Vector12<string>"
   ],
   "TimeUnit": [
     "SingleTimeUnit",
@@ -2072,238 +2072,238 @@
     "TimeUnit"
   ],
   "TimeUnitTransform": [
+    "FieldName",
     "TimeUnit",
-    "TimeUnitTransformParams",
-    "FieldName"
+    "TimeUnitTransformParams"
   ],
   "TimeUnitTransformParams": [
     "TimeUnit"
   ],
   "TitleAnchor": [],
   "TitleConfig": [
-    "Align",
+    "TitleOrient",
     "FontWeight",
-    "TitleAnchor",
+    "ExprRef",
+    "TitleFrame",
+    "Align",
     "FontStyle",
     "Color",
-    "ExprRef",
-    "TextBaseline",
-    "TitleOrient",
-    "TitleFrame"
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "TitleFrame": [],
   "TitleOrient": [],
   "TitleParams": [
-    "Align",
+    "TitleOrient",
+    "Text",
     "FontWeight",
-    "TitleAnchor",
+    "ExprRef",
+    "TitleFrame",
+    "Align",
     "FontStyle",
     "Color",
-    "ExprRef",
-    "TextBaseline",
-    "Text",
-    "TitleOrient",
-    "TitleFrame"
+    "TitleAnchor",
+    "TextBaseline"
   ],
   "TooltipContent": [],
   "TopLevelConcatSpec": [
-    "AutoSizeParams",
-    "Data",
-    "RowCol<boolean>",
-    "NonNormalizedSpec",
-    "Color",
-    "ExprRef",
-    "Datasets",
     "RowCol<number>",
-    "Text",
-    "RowCol<LayoutAlign>",
-    "Config",
-    "Padding",
-    "AutosizeType",
     "Dict",
-    "Resolve",
-    "LayoutAlign",
-    "Transform",
+    "ExprRef",
     "TopLevelParameter",
-    "TitleParams"
+    "LayoutAlign",
+    "NonNormalizedSpec",
+    "TitleParams",
+    "Color",
+    "Transform",
+    "Text",
+    "AutosizeType",
+    "Data",
+    "AutoSizeParams",
+    "Padding",
+    "RowCol<LayoutAlign>",
+    "Resolve",
+    "Datasets",
+    "RowCol<boolean>",
+    "Config"
   ],
   "TopLevelHConcatSpec": [
-    "AutoSizeParams",
-    "Data",
+    "Transform",
+    "Text",
     "AutosizeType",
+    "Data",
     "Dict",
-    "Color",
-    "Datasets",
     "ExprRef",
+    "AutoSizeParams",
+    "Padding",
+    "TopLevelParameter",
     "NonNormalizedSpec",
     "Resolve",
-    "Text",
-    "Transform",
-    "TopLevelParameter",
+    "Color",
+    "Datasets",
     "TitleParams",
-    "Config",
-    "Padding"
+    "Config"
   ],
   "TopLevelVConcatSpec": [
-    "AutoSizeParams",
-    "Data",
-    "AutosizeType",
-    "Dict",
-    "Color",
-    "Datasets",
-    "ExprRef",
-    "Resolve",
-    "Text",
-    "NonNormalizedSpec",
     "Transform",
+    "Text",
+    "AutosizeType",
+    "Data",
+    "Dict",
+    "ExprRef",
+    "AutoSizeParams",
+    "Padding",
     "TopLevelParameter",
     "TitleParams",
-    "Config",
-    "Padding"
+    "Resolve",
+    "Color",
+    "Datasets",
+    "NonNormalizedSpec",
+    "Config"
   ],
   "TopLevelLayerSpec": [
-    "AutoSizeParams",
-    "Data",
     "ExprRef",
+    "TitleParams",
     "SharedEncoding",
-    "Dict",
     "Step",
-    "LayerSpec",
-    "ViewBackground",
-    "Color",
-    "Datasets",
-    "Text",
-    "Config",
-    "Projection",
+    "Data",
     "Padding",
-    "AutosizeType",
     "Resolve",
-    "Transform",
+    "Datasets",
+    "Config",
+    "Dict",
     "TopLevelParameter",
+    "Color",
+    "Projection",
     "UnitSpec",
-    "TitleParams"
+    "Transform",
+    "Text",
+    "AutosizeType",
+    "ViewBackground",
+    "AutoSizeParams",
+    "LayerSpec"
   ],
   "TopLevelRepeatSpec": [
-    "AutoSizeParams",
-    "Data",
-    "LayerRepeatMapping",
-    "NonNormalizedSpec",
     "ExprRef",
+    "LayoutAlign",
+    "TitleParams",
+    "Data",
+    "Padding",
+    "Datasets",
+    "Resolve",
+    "RowCol<boolean>",
+    "LayerRepeatMapping",
+    "Config",
+    "RepeatMapping",
     "RowCol<number>",
     "Dict",
-    "LayoutAlign",
-    "LayerSpec",
-    "UnitSpecWithFrame",
-    "RowCol<boolean>",
-    "Color",
-    "Datasets",
-    "Text",
-    "RepeatMapping",
-    "RowCol<LayoutAlign>",
-    "Config",
-    "Padding",
-    "AutosizeType",
-    "Resolve",
-    "Transform",
     "TopLevelParameter",
-    "TitleParams"
+    "NonNormalizedSpec",
+    "Color",
+    "UnitSpecWithFrame",
+    "Transform",
+    "Text",
+    "AutosizeType",
+    "AutoSizeParams",
+    "RowCol<LayoutAlign>",
+    "LayerSpec"
   ],
   "TopLevelFacetSpec": [
-    "AutoSizeParams",
-    "Data",
-    "FacetFieldDef",
-    "UnitSpecWithFrame",
-    "RowCol<boolean>",
-    "Color",
-    "Datasets",
-    "ExprRef",
     "RowCol<number>",
-    "FacetMapping",
-    "Text",
-    "RowCol<LayoutAlign>",
-    "Config",
-    "Padding",
-    "AutosizeType",
     "Dict",
-    "Resolve",
-    "LayoutAlign",
-    "LayerSpec",
-    "Transform",
+    "ExprRef",
     "TopLevelParameter",
-    "TitleParams"
+    "Datasets",
+    "LayoutAlign",
+    "TitleParams",
+    "Color",
+    "FacetMapping",
+    "UnitSpecWithFrame",
+    "Transform",
+    "Text",
+    "AutosizeType",
+    "Data",
+    "AutoSizeParams",
+    "Padding",
+    "RowCol<LayoutAlign>",
+    "FacetFieldDef",
+    "Resolve",
+    "RowCol<boolean>",
+    "Config",
+    "LayerSpec"
   ],
   "TopLevelParameter": [
     "TopLevelSelectionParameter",
     "VariableParameter"
   ],
   "TopLevelSelectionParameter": [
-    "Binding",
-    "ParameterName",
-    "SelectionInit",
-    "SelectionInitMapping",
-    "SelectionType",
-    "LegendBinding",
-    "IntervalSelectionConfig",
     "SelectionInitIntervalMapping",
-    "PointSelectionConfig"
+    "IntervalSelectionConfig",
+    "SelectionInitMapping",
+    "Binding",
+    "LegendBinding",
+    "ParameterName",
+    "PointSelectionConfig",
+    "SelectionInit",
+    "SelectionType"
   ],
   "TopLevelSpec": [
+    "TopLevelVConcatSpec",
     "TopLevelLayerSpec",
-    "TopLevelUnitSpec",
-    "TopLevelHConcatSpec",
     "TopLevelFacetSpec",
-    "TopLevelRepeatSpec",
     "TopLevelConcatSpec",
-    "TopLevelVConcatSpec"
+    "TopLevelRepeatSpec",
+    "TopLevelUnitSpec",
+    "TopLevelHConcatSpec"
   ],
   "TopLevelUnitSpec": [
-    "AutoSizeParams",
-    "Data",
-    "ViewBackground",
-    "RowCol<boolean>",
-    "Color",
-    "Datasets",
-    "ExprRef",
     "RowCol<number>",
-    "Text",
-    "RowCol<LayoutAlign>",
-    "Config",
-    "Projection",
-    "Padding",
     "FacetedEncoding",
-    "AutosizeType",
-    "AnyMark",
     "Dict",
-    "Step",
-    "Resolve",
-    "LayoutAlign",
-    "Transform",
+    "ExprRef",
     "TopLevelParameter",
-    "TitleParams"
+    "Datasets",
+    "LayoutAlign",
+    "TitleParams",
+    "Color",
+    "Projection",
+    "Transform",
+    "Text",
+    "AutosizeType",
+    "Data",
+    "Step",
+    "ViewBackground",
+    "AutoSizeParams",
+    "AnyMark",
+    "Padding",
+    "RowCol<LayoutAlign>",
+    "Resolve",
+    "RowCol<boolean>",
+    "Config"
   ],
   "TopoDataFormat": [
     "Parse"
   ],
   "Transform": [
-    "TimeUnitTransform",
-    "BinTransform",
-    "StackTransform",
-    "RegressionTransform",
     "ExtentTransform",
-    "WindowTransform",
-    "QuantileTransform",
-    "AggregateTransform",
-    "FoldTransform",
-    "ImputeTransform",
-    "FlattenTransform",
-    "LookupTransform",
     "LoessTransform",
-    "FilterTransform",
+    "WindowTransform",
+    "PivotTransform",
+    "AggregateTransform",
     "CalculateTransform",
+    "RegressionTransform",
     "JoinAggregateTransform",
     "DensityTransform",
     "SampleTransform",
-    "PivotTransform"
+    "FlattenTransform",
+    "BinTransform",
+    "FoldTransform",
+    "TimeUnitTransform",
+    "QuantileTransform",
+    "FilterTransform",
+    "ImputeTransform",
+    "LookupTransform",
+    "StackTransform"
   ],
   "Type": [],
   "TypeForShape": [],
@@ -2311,34 +2311,34 @@
     "Field",
     "TimeUnitParams",
     "TimeUnit",
-    "BinnedTimeUnit",
+    "Text",
     "StandardType",
     "Aggregate",
-    "Text",
-    "BinParams"
+    "BinParams",
+    "BinnedTimeUnit"
   ],
   "URI": [],
   "UnitSpec": [
-    "Data",
-    "Encoding",
-    "SelectionParameter",
-    "AnyMark",
-    "Text",
     "Transform",
+    "Text",
+    "Data",
+    "AnyMark",
+    "Encoding",
     "TitleParams",
-    "Projection"
+    "Projection",
+    "SelectionParameter"
   ],
   "UnitSpecWithFrame": [
+    "Transform",
+    "Text",
+    "Step",
     "Data",
     "ViewBackground",
-    "Encoding",
-    "SelectionParameter",
     "AnyMark",
-    "Step",
-    "Text",
-    "Transform",
+    "Encoding",
     "TitleParams",
-    "Projection"
+    "Projection",
+    "SelectionParameter"
   ],
   "UrlData": [
     "DataFormat"
@@ -2350,20 +2350,20 @@
   ],
   "ValueDef<number>": [],
   "ValueDefWithCondition<MarkPropFieldOrDatumDef,(Gradient|string|null)>": [
-    "Gradient",
-    "ConditionalValueDef<(Gradient|string|null|ExprRef)>",
     "ConditionalMarkPropFieldOrDatumDef",
-    "ExprRef"
+    "Gradient",
+    "ExprRef",
+    "ConditionalValueDef<(Gradient|string|null|ExprRef)>"
   ],
   "ValueDefWithCondition<MarkPropFieldOrDatumDef,(string|null)>": [
-    "ConditionalValueDef<(string|null|ExprRef)>",
     "ConditionalMarkPropFieldOrDatumDef",
-    "ExprRef"
+    "ExprRef",
+    "ConditionalValueDef<(string|null|ExprRef)>"
   ],
   "ValueDefWithCondition<MarkPropFieldOrDatumDef,number>": [
-    "ConditionalValueDef<(number|ExprRef)>",
     "ConditionalMarkPropFieldOrDatumDef",
-    "ExprRef"
+    "ExprRef",
+    "ConditionalValueDef<(number|ExprRef)>"
   ],
   "ValueDefWithCondition<MarkPropFieldOrDatumDef,number[]>": [
     "ConditionalMarkPropFieldOrDatumDef",
@@ -2371,8 +2371,8 @@
     "ConditionalValueDef<(number[]|ExprRef)>"
   ],
   "ValueDefWithCondition<MarkPropFieldOrDatumDef<TypeForShape>,(string|null)>": [
-    "ConditionalMarkPropFieldOrDatumDef<TypeForShape>",
     "ConditionalValueDef<(string|null|ExprRef)>",
+    "ConditionalMarkPropFieldOrDatumDef<TypeForShape>",
     "ExprRef"
   ],
   "ValueDefWithCondition<StringFieldDef,Text>": [
@@ -2383,8 +2383,8 @@
   ],
   "VariableParameter": [
     "Binding",
-    "ParameterName",
-    "Expr"
+    "Expr",
+    "ParameterName"
   ],
   "Vector10<string>": [],
   "Vector12<string>": [],
@@ -2400,31 +2400,31 @@
   "Vector3<number>": [],
   "Vector7<string>": [],
   "ViewBackground": [
-    "StrokeJoin",
     "StrokeCap",
-    "Cursor",
     "Color",
+    "Cursor",
+    "StrokeJoin",
     "ExprRef"
   ],
   "ViewConfig": [
-    "StrokeJoin",
     "StrokeCap",
-    "Cursor",
     "Color",
+    "Cursor",
+    "StrokeJoin",
     "ExprRef"
   ],
   "WindowEventType": [
     "EventType"
   ],
   "WindowFieldDef": [
+    "FieldName",
     "AggregateOp",
-    "WindowOnlyOp",
-    "FieldName"
+    "WindowOnlyOp"
   ],
   "WindowOnlyOp": [],
   "WindowTransform": [
     "SortField",
-    "WindowFieldDef",
-    "FieldName"
+    "FieldName",
+    "WindowFieldDef"
   ]
 }
